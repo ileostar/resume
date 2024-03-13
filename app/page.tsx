@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <div className="mx-auto max-w-3xl px-4 flex flex-col gap-4 items-center py-6">
       <div className="space-y-2 text-center">
-        <img
+        <Image
           alt="Avatar"
           className="inline-block w-16 h-16 rounded-full object-cover"
           height="156"
@@ -67,13 +67,13 @@ export default function Home() {
             their financial habits.
           </p>
           <ul className="flex flex-wrap gap-2">
-            <li className="rounded-full border border-gray-200 border-gray-200 bg-gray-100 px-3 text-sm dark:border-gray-800 dark:border-gray-800 dark:bg-gray-950 dark:text-gray-50">
+            <li className="rounded-full border border-gray-200 bg-gray-100 px-3 text-sm dark:border-gray-800 dark:bg-gray-950 dark:text-gray-50">
               React
             </li>
-            <li className="rounded-full border border-gray-200 border-gray-200 bg-gray-100 px-3 text-sm dark:border-gray-800 dark:border-gray-800 dark:bg-gray-950 dark:text-gray-50">
+            <li className="rounded-full border border-gray-200 bg-gray-100 px-3 text-sm dark:border-gray-800 dark:bg-gray-950 dark:text-gray-50">
               TypeScript
             </li>
-            <li className="rounded-full border border-gray-200 border-gray-200 bg-gray-100 px-3 text-sm dark:border-gray-800 dark:border-gray-800 dark:bg-gray-950 dark:text-gray-50">
+            <li className="rounded-full border border-gray-200 bg-gray-100 px-3 text-sm dark:border-gray-800 dark:bg-gray-950 dark:text-gray-50">
               Chart.js
             </li>
           </ul>
@@ -84,17 +84,17 @@ export default function Home() {
         </div>
         <div className="grid gap-1 text-sm ml-6">
           <p>
-            Led the frontend development for the redesign of the company's website, focusing on creating a modern and
+            Led the frontend development for the redesign of the company&apos;s website, focusing on creating a modern and
             engaging user experience.
           </p>
           <ul className="flex flex-wrap gap-2">
-            <li className="rounded-full border border-gray-200 border-gray-200 bg-gray-100 px-3 text-sm dark:border-gray-800 dark:border-gray-800 dark:bg-gray-950 dark:text-gray-50">
+            <li className="rounded-full border border-gray-200 bg-gray-100 px-3 text-sm dark:border-gray-800 dark:bg-gray-950 dark:text-gray-50">
               Vue.js
             </li>
-            <li className="rounded-full border border-gray-200 border-gray-200 bg-gray-100 px-3 text-sm dark:border-gray-800 dark:border-gray-800 dark:bg-gray-950 dark:text-gray-50">
+            <li className="rounded-full border border-gray-200 bg-gray-100 px-3 text-sm dark:border-gray-800 dark:bg-gray-950 dark:text-gray-50">
               SASS
             </li>
-            <li className="rounded-full border border-gray-200 border-gray-200 bg-gray-100 px-3 text-sm dark:border-gray-800 dark:border-gray-800 dark:bg-gray-950 dark:text-gray-50">
+            <li className="rounded-full border border-gray-200 bg-gray-100 px-3 text-sm dark:border-gray-800 dark:bg-gray-950 dark:text-gray-50">
               GSAP
             </li>
           </ul>
